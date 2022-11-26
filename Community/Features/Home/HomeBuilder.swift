@@ -9,29 +9,30 @@ import SwiftUI
 
 struct HomeBuilder: View {
     
+    @State private var tabIndex: Int = 0
     var body: some View {
         //Page View here
-        TabView{
+        TabView(selection: $tabIndex){
            FeedView().tabItem(){
                 Image(systemName:"house")
                 Text("Feed")
-            }
-            Text("2").tabItem(){
+           }.tag(0)
+            CommunitiesView().tabItem(){
                 Image(systemName:"rectangle.3.group.bubble.left.fill")
                 Text("Communities")
-            }
-            Text("3").tabItem(){
-                Image(systemName:"magnifyingglass")
-                Text("Search")
-            }
+            }.tag(1)
+            CreateView().tabItem(){
+                Image(systemName:"plus.circle.fill")
+                Text("Create")
+            }.tag(2)
             Text("4").tabItem(){
                 Image(systemName:"message.badge")
                 Text("Notifications")
-            }
+            }.tag(3)
             Text("5").tabItem(){
                 Image(systemName:"person")
                 Text("Profile")
-            }
+            }.tag(4)
         }
         //Bottom Navigation Bar here
         

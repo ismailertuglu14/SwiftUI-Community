@@ -7,14 +7,18 @@
 
 import SwiftUI
 
-struct CommunityView: View {
+struct CommunitiesView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            //Search Community
+            SearchCommunityView()
+            //Your Communities
+        }
     }
 }
 
-struct CommunityView_Previews: PreviewProvider {
+struct CommunitiesView_Previews: PreviewProvider {
     static var previews: some View {
-        CommunityView()
+        CommunitiesView()
     }
 }
