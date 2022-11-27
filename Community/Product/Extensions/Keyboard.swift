@@ -14,6 +14,8 @@ protocol Keyboard {
 
 extension Keyboard {
     
+    /// Detect is keyboard present
+    /// - Returns: true of false
     var keyboardPublisher: AnyPublisher<Bool, Never> {
         Publishers.Merge(
             NotificationCenter.default

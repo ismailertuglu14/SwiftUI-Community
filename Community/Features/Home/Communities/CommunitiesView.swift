@@ -9,11 +9,10 @@ import SwiftUI
 
 struct CommunitiesView: View {
     var body: some View {
-        TabView{
             //Search Community
             SearchCommunityView()
             //Your Communities
-        }
+        
     }
 }
 

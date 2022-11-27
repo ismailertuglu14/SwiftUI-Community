@@ -17,4 +17,14 @@ extension String{
         return (self.count > length) ? self.prefix(length) + trailing : self
     }
     
+    
+    
+}
+extension String? {
+    
+    /// Check null safety on runtime, if value is null, return empty string
+    /// - Returns: Self or empty string
+    func isNil() -> String {
+        return self ?? ""
+    }
 }
