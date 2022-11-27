@@ -46,7 +46,7 @@ struct SearchCommunityView: View, Keyboard{
                 ScrollView{
                     ForEach(Community.communities,id:\.id){ community in
                         //TODO: Custom Community Card
-                        NavigationLink(destination:Text("asd"),label: {
+                        NavigationLink(destination:CommunityDetailView(community: community),label: {
                                 CommunityCard(community: community)
                             
                         }).buttonStyle(.plain).padding(.vertical,15)
@@ -55,7 +55,7 @@ struct SearchCommunityView: View, Keyboard{
                 }.scrollIndicators(.never)
                 
                 
-            }.padding()
+            }
              .ignoresSafeArea(.all)
               .onTapGesture {
                 self.endEditing()

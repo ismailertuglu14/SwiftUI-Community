@@ -10,11 +10,11 @@ import Foundation
 struct User:  Codable {
     let id: String
     
-    let userName: String
-    let firstName: String
-    let lastName: String
+    let userName: String?
+    let firstName: String?
+    let lastName: String?
     
-    var posts: [Post]?
+    let posts: [Post]?
 
 }
 

@@ -33,6 +33,8 @@
 		EC3A576F29327B6C00E10E92 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A576E29327B6C00E10E92 /* CreateView.swift */; };
 		EC3A5771293286B600E10E92 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A5770293286B600E10E92 /* Event.swift */; };
 		EC3A57732932962400E10E92 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A57722932962400E10E92 /* Keyboard.swift */; };
+		EC5DF53329337F3C00B903EF /* CommunityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DF53229337F3C00B903EF /* CommunityDetailView.swift */; };
+		EC5DF53529338AC000B903EF /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DF53429338AC000B903EF /* UIScreen.swift */; };
 		ECB4A5442931020E00BE2C02 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A5432931020E00BE2C02 /* User.swift */; };
 		ECB4A546293102BD00BE2C02 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A545293102BD00BE2C02 /* Community.swift */; };
 		ECB4A549293103F900BE2C02 /* CommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A548293103F900BE2C02 /* CommunitiesView.swift */; };
@@ -41,9 +43,10 @@
 		ECB4A5512931125900BE2C02 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A5502931125900BE2C02 /* EdgeInsets.swift */; };
 		ECB4A553293112AD00BE2C02 /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A552293112AD00BE2C02 /* LocaleKeys.swift */; };
 		ECB4A555293112F700BE2C02 /* PagePadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A554293112F700BE2C02 /* PagePadding.swift */; };
-		ECB4A5572931372800BE2C02 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A5562931372800BE2C02 /* StringExtension.swift */; };
+		ECB4A5572931372800BE2C02 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A5562931372800BE2C02 /* String.swift */; };
 		ECB4A559293143BB00BE2C02 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A558293143BB00BE2C02 /* Comment.swift */; };
 		ECB4A55C2931451B00BE2C02 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A55B2931451B00BE2C02 /* PostCard.swift */; };
+		ECBAC72A2933FD8500B157BA /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBAC7292933FD8500B157BA /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,8 @@
 		EC3A576E29327B6C00E10E92 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		EC3A5770293286B600E10E92 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		EC3A57722932962400E10E92 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		EC5DF53229337F3C00B903EF /* CommunityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDetailView.swift; sourceTree = "<group>"; };
+		EC5DF53429338AC000B903EF /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		ECB4A5432931020E00BE2C02 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ECB4A545293102BD00BE2C02 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
 		ECB4A548293103F900BE2C02 /* CommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesView.swift; sourceTree = "<group>"; };
@@ -101,9 +106,10 @@
 		ECB4A5502931125900BE2C02 /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
 		ECB4A552293112AD00BE2C02 /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
 		ECB4A554293112F700BE2C02 /* PagePadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePadding.swift; sourceTree = "<group>"; };
-		ECB4A5562931372800BE2C02 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		ECB4A5562931372800BE2C02 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		ECB4A558293143BB00BE2C02 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		ECB4A55B2931451B00BE2C02 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		ECBAC7292933FD8500B157BA /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,8 +311,9 @@
 			children = (
 				ECB4A54E2931121700BE2C02 /* DynamicSize.swift */,
 				ECB4A5502931125900BE2C02 /* EdgeInsets.swift */,
-				ECB4A5562931372800BE2C02 /* StringExtension.swift */,
+				ECB4A5562931372800BE2C02 /* String.swift */,
 				EC3A57722932962400E10E92 /* Keyboard.swift */,
+				EC5DF53429338AC000B903EF /* UIScreen.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -329,6 +336,7 @@
 		EC1C972C2930F814004D2FD1 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				ECBAC7292933FD8500B157BA /* ButtonStyle.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -360,7 +368,8 @@
 		EC32EAD52931648F006C5460 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
-				EC32EAD6293164B1006C5460 /* SearchCommunityView.swift */,
+				EC5DF53129337F2B00B903EF /* CommunityDetail */,
+				EC5DF53029337EF900B903EF /* SearchCommunity */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -385,6 +394,22 @@
 			children = (
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		EC5DF53029337EF900B903EF /* SearchCommunity */ = {
+			isa = PBXGroup;
+			children = (
+				EC32EAD6293164B1006C5460 /* SearchCommunityView.swift */,
+			);
+			path = SearchCommunity;
+			sourceTree = "<group>";
+		};
+		EC5DF53129337F2B00B903EF /* CommunityDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DF53229337F3C00B903EF /* CommunityDetailView.swift */,
+			);
+			path = CommunityDetail;
 			sourceTree = "<group>";
 		};
 		ECB4A5402931019700BE2C02 /* Login */ = {
@@ -563,6 +588,8 @@
 				EC3A5771293286B600E10E92 /* Event.swift in Sources */,
 				EC1C97212930EC2C004D2FD1 /* OnBoardViewModel.swift in Sources */,
 				EC1C97182930E7E3004D2FD1 /* FeedView.swift in Sources */,
+				ECBAC72A2933FD8500B157BA /* ButtonStyle.swift in Sources */,
+				EC5DF53329337F3C00B903EF /* CommunityDetailView.swift in Sources */,
 				EC32EAD7293164B1006C5460 /* SearchCommunityView.swift in Sources */,
 				EC1C97152930E3C7004D2FD1 /* HomeBuilder.swift in Sources */,
 				EC1C97232930EC3D004D2FD1 /* OnBoard.swift in Sources */,
@@ -583,9 +610,10 @@
 				EC3A57732932962400E10E92 /* Keyboard.swift in Sources */,
 				EC1C97122930E3A8004D2FD1 /* SplashView.swift in Sources */,
 				ECB4A549293103F900BE2C02 /* CommunitiesView.swift in Sources */,
+				EC5DF53529338AC000B903EF /* UIScreen.swift in Sources */,
 				EC1C97322930F90A004D2FD1 /* CacheEnums.swift in Sources */,
 				ECB4A54F2931121700BE2C02 /* DynamicSize.swift in Sources */,
-				ECB4A5572931372800BE2C02 /* StringExtension.swift in Sources */,
+				ECB4A5572931372800BE2C02 /* String.swift in Sources */,
 				ECB4A553293112AD00BE2C02 /* LocaleKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

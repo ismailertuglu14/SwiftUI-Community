@@ -23,7 +23,7 @@ struct PostCard: View {
             }
             VStack(alignment: .leading){
                 Text(post.description.shorten()).multilineTextAlignment(.leading)
-                Image(systemName: post.image ?? "").resizable().frame(height: post.image != nil ? 200 : 0).scaledToFit()
+                Image(systemName: post.image.isNil()).resizable().frame(height: post.image != nil ? 200 : 0).scaledToFit()
                 Divider()
                 HStack{
                     Image(systemName: "hand.thumbsup")

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeBuilder: View {
     
-    @State private var tabIndex: Int = 0
+    @State private var tabIndex: Int = 1
     var body: some View {
         //Page View here
         TabView(selection: $tabIndex){
@@ -17,14 +17,17 @@ struct HomeBuilder: View {
                 Image(systemName:"house")
                 Text("Feed")
            }.tag(0)
+            
             CommunitiesView().tabItem(){
                 Image(systemName:"rectangle.3.group.bubble.left.fill")
                 Text("Communities")
             }.tag(1)
+            
             CreateView().tabItem(){
                 Image(systemName:"plus.circle.fill")
                 Text("Create")
             }.tag(2)
+            
             Text("4").tabItem(){
                 Image(systemName:"message.badge")
                 Text("Notifications")
