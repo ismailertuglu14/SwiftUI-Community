@@ -21,6 +21,8 @@ struct Event: Identifiable, Codable {
     
     let participiantLimit: Int?
     let participiants: [User]?
+    
+    let startDate: Date?
     let endDate: Date?
     
     

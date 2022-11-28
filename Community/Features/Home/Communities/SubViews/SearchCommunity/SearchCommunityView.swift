@@ -42,14 +42,15 @@ struct SearchCommunityView: View, Keyboard{
                 
                 Divider()
                 
+                
                 // Community List Area
                 ScrollView{
                     ForEach(Community.communities,id:\.id){ community in
                         //TODO: Custom Community Card
                         NavigationLink(destination:CommunityDetailView(community: community),label: {
-                                CommunityCard(community: community)
+                            CommunityCard(community: community)
                             
-                        }).buttonStyle(.plain).padding(.vertical,15)
+                        }).buttonStyle(.plain).padding(.vertical,5)
                      
                     }
                 }.scrollIndicators(.never)
@@ -61,6 +62,7 @@ struct SearchCommunityView: View, Keyboard{
                 self.endEditing()
               }
         }
+        
     }
 }
 
