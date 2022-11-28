@@ -368,8 +368,8 @@
 		EC32EAD52931648F006C5460 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
-				EC5DF53129337F2B00B903EF /* CommunityDetail */,
 				EC5DF53029337EF900B903EF /* SearchCommunity */,
+				EC5DF53129337F2B00B903EF /* CommunityDetail */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -434,10 +434,10 @@
 		ECB4A547293103E800BE2C02 /* Communities */ = {
 			isa = PBXGroup;
 			children = (
-				EC32EACF293163C9006C5460 /* Components */,
-				EC32EAD52931648F006C5460 /* SubViews */,
 				ECB4A548293103F900BE2C02 /* CommunitiesView.swift */,
 				ECB4A54A2931040100BE2C02 /* CommunitiesViewModel.swift */,
+				EC32EAD52931648F006C5460 /* SubViews */,
+				EC32EACF293163C9006C5460 /* Components */,
 			);
 			path = Communities;
 			sourceTree = "<group>";

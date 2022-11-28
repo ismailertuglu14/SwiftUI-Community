@@ -13,7 +13,7 @@ struct JoinCommunityButtonStyle: ButtonStyle {
         configuration.label.foregroundColor(configuration.isPressed ? .accentColor : .white )
             .padding()
             .background(.green)
-            .cornerRadius(40)
+            .cornerRadius(20)
             
     }
 }

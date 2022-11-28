@@ -15,7 +15,7 @@ struct Community:Identifiable, Codable {
     var title: String?
     var description: String?
     var image: String?
-    
+    //let imageCover: String?
     var participants: [User]?
     
     var createdDate: Date?
