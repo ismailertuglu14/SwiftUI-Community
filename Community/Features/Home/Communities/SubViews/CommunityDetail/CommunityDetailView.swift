@@ -7,6 +7,7 @@
 
 import SwiftUI
 import UIKit
+
 struct CommunityDetailView: View {
     
     init(community: Community){
