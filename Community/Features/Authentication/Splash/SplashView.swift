@@ -7,9 +7,28 @@
 
 import SwiftUI
 
+
+
 struct SplashView: View {
+    @StateObject var splashViewModel: SplashViewModel = SplashViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationView {
+            VStack{
+                Image("splash").resizable().frame(width: 350,height: 550)
+                
+                NavigationLink("",destination: VStack{
+                    if(splashViewModel.isFirst){
+                        OnBoardView()
+                    }else{
+                        HomeBuilder()
+                    }
+                }, isActive: $splashViewModel.isNavigate)
+            }.frame(maxHeight:.infinity, alignment:.top).onAppear{
+                splashViewModel.navigateToNextPage()
+            }
+        }
     }
 }
 

@@ -21,17 +21,18 @@ struct Community:Identifiable, Codable {
     var createdDate: Date?
 }
 
+
 extension Community{
     static let communities: [Community] = [
-        Community(creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
+        Community(creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil,createdAt: Date.now,updatedAt: Date.now), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
         
-        Community( creator: User(id: "123123", userName: "fakeuser123", firstName: "İsmail", lastName: "Ertuğlu",posts: nil), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
+        Community( creator: User(id: "123123", userName: "fakeuser123", firstName: "İsmail", lastName: "Ertuğlu",posts: nil,createdAt: Date.now,updatedAt: Date.now), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
     
-        Community( creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
-        Community( creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
-        Community(creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
-        Community( creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
-        Community(creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum")
+        Community( creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil,createdAt: Date.now,updatedAt: Date.now), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
+        Community( creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil,createdAt: Date.now,updatedAt: Date.now), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
+        Community(creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil,createdAt: Date.now,updatedAt: Date.now), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
+        Community( creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil,createdAt: Date.now,updatedAt: Date.now), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum"),
+        Community(creator: User(id: "123123", userName: "ismailertuglu", firstName: "İsmail", lastName: "Ertuğlu",posts: nil,createdAt: Date.now,updatedAt: Date.now), title: "FullStack Java Eğitimi", description: "lorem ipsum dolor sit amet consectepum")
     ]
     
 }

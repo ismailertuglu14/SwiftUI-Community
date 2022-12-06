@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct CommunitiesView: View {
+ 
+    
     var body: some View {
+        
             //Search Community
             SearchCommunityView()
             //Your Communities

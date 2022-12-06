@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0D271E2938ABD50040C98A /* HomeBuilderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D271D2938ABD50040C98A /* HomeBuilderModel.swift */; };
 		EC1C96E12930E32B004D2FD1 /* CommunityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C96E02930E32B004D2FD1 /* CommunityApp.swift */; };
 		EC1C96E32930E32C004D2FD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C96E22930E32C004D2FD1 /* ContentView.swift */; };
 		EC1C96E52930E32C004D2FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1C96E42930E32C004D2FD1 /* Assets.xcassets */; };
@@ -25,6 +26,11 @@
 		EC1C97252930EE7B004D2FD1 /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C97242930EE7B004D2FD1 /* FeedService.swift */; };
 		EC1C972F2930F836004D2FD1 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C972E2930F836004D2FD1 /* CacheManager.swift */; };
 		EC1C97322930F90A004D2FD1 /* CacheEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C97312930F90A004D2FD1 /* CacheEnums.swift */; };
+		EC1FF024293B62B800170C87 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF023293B62B800170C87 /* LoginView.swift */; };
+		EC1FF026293B62C200170C87 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF025293B62C200170C87 /* LoginViewModel.swift */; };
+		EC1FF028293B62CA00170C87 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF027293B62CA00170C87 /* LoginService.swift */; };
+		EC1FF02C293B62ED00170C87 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF02B293B62ED00170C87 /* LoginRequest.swift */; };
+		EC1FF02E293B62F400170C87 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF02D293B62F400170C87 /* LoginResponse.swift */; };
 		EC23AF4A29323C0B003AF953 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC23AF4929323C0A003AF953 /* Images.xcassets */; };
 		EC32EACE2931555B006C5460 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32EACD2931555B006C5460 /* PostService.swift */; };
 		EC32EAD42931641C006C5460 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32EAD32931641C006C5460 /* SearchBar.swift */; };
@@ -33,6 +39,7 @@
 		EC3A576F29327B6C00E10E92 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A576E29327B6C00E10E92 /* CreateView.swift */; };
 		EC3A5771293286B600E10E92 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A5770293286B600E10E92 /* Event.swift */; };
 		EC3A57732932962400E10E92 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A57722932962400E10E92 /* Keyboard.swift */; };
+		EC42EC1A293F4944005F952B /* DurationEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC42EC19293F4944005F952B /* DurationEnums.swift */; };
 		EC5DF53329337F3C00B903EF /* CommunityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DF53229337F3C00B903EF /* CommunityDetailView.swift */; };
 		EC5DF53529338AC000B903EF /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DF53429338AC000B903EF /* UIScreen.swift */; };
 		ECB4A5442931020E00BE2C02 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A5432931020E00BE2C02 /* User.swift */; };
@@ -47,6 +54,9 @@
 		ECB4A559293143BB00BE2C02 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A558293143BB00BE2C02 /* Comment.swift */; };
 		ECB4A55C2931451B00BE2C02 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A55B2931451B00BE2C02 /* PostCard.swift */; };
 		ECBAC72A2933FD8500B157BA /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBAC7292933FD8500B157BA /* ButtonStyle.swift */; };
+		ECD77301293CCD8800BA17E9 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD77300293CCD8700BA17E9 /* CornerRadius.swift */; };
+		ECD77304293CEF5400BA17E9 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD77303293CEF5300BA17E9 /* SplashViewModel.swift */; };
+		ECFAAFD2293D13D7000DF0DD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ECFAAFD1293D13D7000DF0DD /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC0D271D2938ABD50040C98A /* HomeBuilderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilderModel.swift; sourceTree = "<group>"; };
 		EC1C96DD2930E32B004D2FD1 /* Community.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Community.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1C96E02930E32B004D2FD1 /* CommunityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityApp.swift; sourceTree = "<group>"; };
 		EC1C96E22930E32C004D2FD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +99,11 @@
 		EC1C97242930EE7B004D2FD1 /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
 		EC1C972E2930F836004D2FD1 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		EC1C97312930F90A004D2FD1 /* CacheEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheEnums.swift; sourceTree = "<group>"; };
+		EC1FF023293B62B800170C87 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EC1FF025293B62C200170C87 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC1FF027293B62CA00170C87 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		EC1FF02B293B62ED00170C87 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		EC1FF02D293B62F400170C87 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		EC23AF4929323C0A003AF953 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC32EACD2931555B006C5460 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		EC32EAD32931641C006C5460 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -96,6 +112,7 @@
 		EC3A576E29327B6C00E10E92 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		EC3A5770293286B600E10E92 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		EC3A57722932962400E10E92 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		EC42EC19293F4944005F952B /* DurationEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationEnums.swift; sourceTree = "<group>"; };
 		EC5DF53229337F3C00B903EF /* CommunityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDetailView.swift; sourceTree = "<group>"; };
 		EC5DF53429338AC000B903EF /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		ECB4A5432931020E00BE2C02 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -110,6 +127,8 @@
 		ECB4A558293143BB00BE2C02 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		ECB4A55B2931451B00BE2C02 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
 		ECBAC7292933FD8500B157BA /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		ECD77300293CCD8700BA17E9 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		ECD77303293CEF5300BA17E9 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFAAFD2293D13D7000DF0DD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +266,10 @@
 			isa = PBXGroup;
 			children = (
 				EC1C97142930E3C7004D2FD1 /* HomeBuilder.swift */,
+				EC0D271D2938ABD50040C98A /* HomeBuilderModel.swift */,
 				EC1C97162930E7DA004D2FD1 /* Feed */,
 				ECB4A547293103E800BE2C02 /* Communities */,
+				EC5DF53129337F2B00B903EF /* CommunityDetail */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -256,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				EC1C97112930E3A8004D2FD1 /* SplashView.swift */,
+				ECD77303293CEF5300BA17E9 /* SplashViewModel.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -302,6 +325,8 @@
 			children = (
 				EC1C97312930F90A004D2FD1 /* CacheEnums.swift */,
 				ECB4A554293112F700BE2C02 /* PagePadding.swift */,
+				ECD77300293CCD8700BA17E9 /* CornerRadius.swift */,
+				EC42EC19293F4944005F952B /* DurationEnums.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -341,6 +366,15 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
+		EC1FF029293B62D700170C87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FF02B293B62ED00170C87 /* LoginRequest.swift */,
+				EC1FF02D293B62F400170C87 /* LoginResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EC32EACC2931554F006C5460 /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,7 +403,6 @@
 			isa = PBXGroup;
 			children = (
 				EC5DF53029337EF900B903EF /* SearchCommunity */,
-				EC5DF53129337F2B00B903EF /* CommunityDetail */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -415,6 +448,10 @@
 		ECB4A5402931019700BE2C02 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				EC1FF029293B62D700170C87 /* Model */,
+				EC1FF023293B62B800170C87 /* LoginView.swift */,
+				EC1FF025293B62C200170C87 /* LoginViewModel.swift */,
+				EC1FF027293B62CA00170C87 /* LoginService.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -466,6 +503,9 @@
 			dependencies = (
 			);
 			name = Community;
+			packageProductDependencies = (
+				ECFAAFD1293D13D7000DF0DD /* Alamofire */,
+			);
 			productName = Community;
 			productReference = EC1C96DD2930E32B004D2FD1 /* Community.app */;
 			productType = "com.apple.product-type.application";
@@ -538,6 +578,10 @@
 				Base,
 			);
 			mainGroup = EC1C96D42930E32B004D2FD1;
+			packageReferences = (
+				ECFAAFD0293D13D7000DF0DD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				ECFAAFD3293D13F8000DF0DD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = EC1C96DE2930E32B004D2FD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -584,10 +628,12 @@
 				EC32EACE2931555B006C5460 /* PostService.swift in Sources */,
 				ECB4A546293102BD00BE2C02 /* Community.swift in Sources */,
 				ECB4A55C2931451B00BE2C02 /* PostCard.swift in Sources */,
+				ECD77304293CEF5400BA17E9 /* SplashViewModel.swift in Sources */,
 				ECB4A559293143BB00BE2C02 /* Comment.swift in Sources */,
 				EC3A5771293286B600E10E92 /* Event.swift in Sources */,
 				EC1C97212930EC2C004D2FD1 /* OnBoardViewModel.swift in Sources */,
 				EC1C97182930E7E3004D2FD1 /* FeedView.swift in Sources */,
+				ECD77301293CCD8800BA17E9 /* CornerRadius.swift in Sources */,
 				ECBAC72A2933FD8500B157BA /* ButtonStyle.swift in Sources */,
 				EC5DF53329337F3C00B903EF /* CommunityDetailView.swift in Sources */,
 				EC32EAD7293164B1006C5460 /* SearchCommunityView.swift in Sources */,
@@ -595,24 +641,31 @@
 				EC1C97232930EC3D004D2FD1 /* OnBoard.swift in Sources */,
 				ECB4A5512931125900BE2C02 /* EdgeInsets.swift in Sources */,
 				EC1C972F2930F836004D2FD1 /* CacheManager.swift in Sources */,
+				EC1FF02E293B62F400170C87 /* LoginResponse.swift in Sources */,
 				EC1C971A2930E7EB004D2FD1 /* FeedViewModel.swift in Sources */,
 				ECB4A555293112F700BE2C02 /* PagePadding.swift in Sources */,
 				ECB4A5442931020E00BE2C02 /* User.swift in Sources */,
 				EC32EAD42931641C006C5460 /* SearchBar.swift in Sources */,
 				EC3A576F29327B6C00E10E92 /* CreateView.swift in Sources */,
+				EC1FF028293B62CA00170C87 /* LoginService.swift in Sources */,
 				EC1C971D2930E861004D2FD1 /* Post.swift in Sources */,
 				EC1C97252930EE7B004D2FD1 /* FeedService.swift in Sources */,
+				EC42EC1A293F4944005F952B /* DurationEnums.swift in Sources */,
 				EC3A576D29327A1500E10E92 /* CommunityCard.swift in Sources */,
 				EC1C971F2930EC1F004D2FD1 /* OnBoardView.swift in Sources */,
 				ECB4A54B2931040100BE2C02 /* CommunitiesViewModel.swift in Sources */,
 				EC1C96E32930E32C004D2FD1 /* ContentView.swift in Sources */,
 				EC1C96E12930E32B004D2FD1 /* CommunityApp.swift in Sources */,
+				EC1FF02C293B62ED00170C87 /* LoginRequest.swift in Sources */,
 				EC3A57732932962400E10E92 /* Keyboard.swift in Sources */,
 				EC1C97122930E3A8004D2FD1 /* SplashView.swift in Sources */,
 				ECB4A549293103F900BE2C02 /* CommunitiesView.swift in Sources */,
+				EC1FF026293B62C200170C87 /* LoginViewModel.swift in Sources */,
 				EC5DF53529338AC000B903EF /* UIScreen.swift in Sources */,
+				EC1FF024293B62B800170C87 /* LoginView.swift in Sources */,
 				EC1C97322930F90A004D2FD1 /* CacheEnums.swift in Sources */,
 				ECB4A54F2931121700BE2C02 /* DynamicSize.swift in Sources */,
+				EC0D271E2938ABD50040C98A /* HomeBuilderModel.swift in Sources */,
 				ECB4A5572931372800BE2C02 /* String.swift in Sources */,
 				ECB4A553293112AD00BE2C02 /* LocaleKeys.swift in Sources */,
 			);
@@ -933,6 +986,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECFAAFD0293D13D7000DF0DD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		ECFAAFD3293D13F8000DF0DD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECFAAFD1293D13D7000DF0DD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECFAAFD0293D13D7000DF0DD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC1C96D52930E32B004D2FD1 /* Project object */;
 }

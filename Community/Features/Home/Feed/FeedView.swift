@@ -13,8 +13,10 @@ struct FeedView: View {
         GridItem(.flexible()),
         
     ]
+    
+    
     var body: some View {
-        NavigationView{
+       
             
             ScrollView(.vertical,showsIndicators: false){
                 Spacer().frame(height: 50)
@@ -25,11 +27,10 @@ struct FeedView: View {
                         
                         Spacer().frame(height: 100)
                     }
-                }
-            }
+                }.padding()
+            }.edgesIgnoringSafeArea(.all)
         
-        }.padding()
-        .onAppear(perform: feedViewModel.getPosts)
+              .onAppear(perform: feedViewModel.getPosts)
         
     }
 }

@@ -10,6 +10,7 @@ import Foundation
 struct Event: Identifiable, Codable {
     var id: UUID = UUID()
     let eventId: String?
+    let communityId: String?
     
     let title:String?
     let description: String?
